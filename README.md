@@ -1,7 +1,7 @@
 # Animated Gooey Background
 
 An animated background where circles blend together like goo when they are close. Built using HTML, CSS, JavaScript, and SVG.
-
+![Gooey Background Screenshot](./screenshots/ss.png)  
 
 ## 🌟 Features
 
