@@ -2,11 +2,13 @@ let cursorX = 0;
 let cursorY = 0;
 let targetX = 0;
 let targetY = 0;
+
 document.addEventListener('DOMContentLoaded', () => {
 
     const interactiveCursor = document.querySelector('.gradients-container .interactive');
     
     function move() {
+        // ( / 5) is easing the cursor
         cursorX += (targetX - cursorX) / 5;
         cursorY += (targetY - cursorY) / 5;
     
